@@ -1,0 +1,84 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CRUD cliente",
+		"_postman_id": "686f3d00-0b8d-3197-5b8c-a213a717fc51",
+		"description": "Simples CRUD REST de exemplo para cliente",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar clientes",
+			"request": {
+				"url": "http://localhost:8080/zup/clientes",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Adicionar cliente",
+			"request": {
+				"url": "http://localhost:8080/zup/clientes",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\":\"tESTE\",\n\t\"cpf\":\"123.456.789-X\",\n\t\"dataNascimento\":\"2019-07-21\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Recuperar cliente por Id",
+			"request": {
+				"url": "http://localhost:8080/zup/clientes/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar cliente",
+			"request": {
+				"url": "http://localhost:8080/zup/clientes/2",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\":\"segundo nome\",\n\t\"cpf\":\"123.456.789-0\",\n\t\"dataNascimento\": \"2019-06-01\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Remover cliente",
+			"request": {
+				"url": "http://localhost:8080/zup/clientes/2",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
