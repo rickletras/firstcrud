@@ -1,0 +1,7 @@
+com/rickletras/application/firstcrud/exception/ResourceNotFoundException.class
+com/rickletras/application/FirstcrudApplication.class
+com/rickletras/application/firstcrud/exception/GlobalExceptionHandler.class
+com/rickletras/application/firstcrud/repository/ClienteRepository.class
+com/rickletras/application/firstcrud/exception/ErrorDetails.class
+com/rickletras/application/firstcrud/controller/ClienteController.class
+com/rickletras/application/firstcrud/model/Cliente.class

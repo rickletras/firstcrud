@@ -1,0 +1,7 @@
+/home/rickletras/Documents/workspace-spring-tool-suite/firstcrud/src/main/java/com/rickletras/application/firstcrud/repository/ClienteRepository.java
+/home/rickletras/Documents/workspace-spring-tool-suite/firstcrud/src/main/java/com/rickletras/application/firstcrud/controller/ClienteController.java
+/home/rickletras/Documents/workspace-spring-tool-suite/firstcrud/src/main/java/com/rickletras/application/firstcrud/model/Cliente.java
+/home/rickletras/Documents/workspace-spring-tool-suite/firstcrud/src/main/java/com/rickletras/application/FirstcrudApplication.java
+/home/rickletras/Documents/workspace-spring-tool-suite/firstcrud/src/main/java/com/rickletras/application/firstcrud/exception/ErrorDetails.java
+/home/rickletras/Documents/workspace-spring-tool-suite/firstcrud/src/main/java/com/rickletras/application/firstcrud/exception/ResourceNotFoundException.java
+/home/rickletras/Documents/workspace-spring-tool-suite/firstcrud/src/main/java/com/rickletras/application/firstcrud/exception/GlobalExceptionHandler.java
